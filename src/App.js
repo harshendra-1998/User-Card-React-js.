@@ -45,10 +45,12 @@ export default function App() {
           >
             <img
               style={{
-                width: "90%",
+                maxWidth: "90%",
                 position: "absolute",
                 top: "50%",
+                right: "0px",
                 transform: "translateY(-50%)",
+                maxHeight: "80%",
                 margin: "10px"
               }}
               src="https://www.w3schools.com/howto/img_avatar.png"
