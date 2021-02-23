@@ -1,0 +1,14 @@
+h1,
+p {
+  font-family: Lato;
+}
+div {
+  background: white;
+}
+p {
+  margin: 10px;
+}
+.hello{
+  border: 2px solid gray;
+  border-radius: 10px;
+}
