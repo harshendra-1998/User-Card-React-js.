@@ -8,7 +8,15 @@ div {
 p {
   margin: 10px;
 }
-.hello{
+.hello {
   border: 2px solid gray;
   border-radius: 10px;
+  display: flex;
+  background: white;
+  margin: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .hello {
+    flex-direction: row;
+  }
 }

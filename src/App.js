@@ -15,15 +15,7 @@ export default function App() {
   return (
     <div>
       {data.map(datab => (
-        <div
-          className="hello"
-          key={datab.id}
-          style={{
-            display: "flex",
-            background: "white",
-            margin: "5px"
-          }}
-        >
+        <div className="hello" key={datab.id}>
           <section style={{ width: "70%", position: "relative" }}>
             <p>Name : {datab.name}</p>
             <p>E-mail : {datab.email}</p>
